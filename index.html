@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+  <title>Savings accounts | Circle Banking</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<nav>
+  <div class="menu">
+  <a href="#calculator"><img src="images/circle logo1.png" class="logo" width="130"></a>
+  <ul>
+  <li><a href="#calculator"><button type="button">Home</button></a></li>
+  <li><a href="#calculator"><button type="button">Everyday</button></a></li>
+  <li><a href="#calculator"><button type="button">Savings</button></a></li>
+  <li><a href="#calculator"><button type="button">Mortgages</button></a></li>
+  <li><a href="#calculator"><button type="button">Loans</button></a></li>
+  </ul>
+  <div>
+  <a href ="#calculator" class="btn1"><button type="button">Contact now</button></a>
+  <a href="#calculator" class="btn2"><button type="button">Sign up</button></a>
+  </div>
+  <input type="checkbox" id="check">
+  <label for="check">
+  <i class="fa fa-bars" id="menu-button"></i>
+  </label>
+  </div>
+</nav>
+
+<body>
+
+<div class="section1">
+  <div class="section1-left">
+  <h1>Unlock higher returns <br>with crypto banking</h1>
+  <p><br>By lending funds to traders and organisations in the financial services sector, Circle Finance is able to offer higher than average interest rates on savings.</p>
+  <a href="#calculator" class="btn2"><button type="button">Calculate your interest</button></a>
+  </div>
+  <div class="section1-right">
+  <div class="globe"></div>
+  </div>
+</div>
+
+<!--<div class="section2">
+<h1>Introducing<br>crypto savings accounts</h1>
+  <p>Our bespoke savings accounts will provide higher than average returns on your deposit.<br>Our accounts can be managed digitally by our app so you always stay in control.</p>
+  <div class="container">
+  <br>
+  <div class="cards-container">
+  <img class="cards" src="images/Silver card.png" width="300">
+  <img class="cards" src="images/Gold card.png" width="300">
+  <img class="cards" src="images/Black card.png" width="300">
+  </div>
+  </div>
+  <div class="button-container">
+  <div class="button-container1">
+  <a href="#calculator" class="btn2"><button type="button">Apply for an account today</button></a></div></div>
+</div>
+</div>-->
+
+<div class="section3">
+  <h1 id="calculator">Calculate your<br>potential interest</h1>
+  <div class="calculator-container">
+  <div class="calculator-container1">
+  <div class="calculator">
+
+  <section>
+  <div class="wrapper wrapper-top">
+  <label for="principal" class="label">Your deposit</label>
+  <div class="deposit"> <span>£</span>
+  <input type="number" value="100.00" id="principal" class="calculator-input"></div></div>
+  <br>
+  <div class="wrapper">
+  <span class="label">Interest accrued</span>
+  <span id="interest-amount" class="number">£0.00</span>
+  </div>
+  <div class="wrapper-total">
+  <span class="label">Total amount</span>
+  <span id="total-amount" class="number">
+  £0
+  </span>
+  </div>
+  </section>
+
+  <section>
+  <div class="wrapper-main">
+  <label for="rate" class="label">
+  Interest rate
+  </label>
+  <span id="rate" class="number">
+  </span>
+  </div>
+  <input type="range" min="1" max="6" id="interest-rate" value="1" class="slider">
+  <div class="wrapper-main">
+  <label for="no-of-years" class="label">
+  Number of years
+  </label>
+  <span id="years" class="number">
+  0
+  </span>
+  </div>
+  <input type="range" min="1" max="15" id="no-of-years" value="1" class="slider">
+  </section>
+
+  <section>
+  <div class="wrapper-bottom">
+  <span class="label">
+  Annual interest
+  </span>
+  <span id="interest-per-year" class="number">
+  £0
+  </span>
+  </div>
+  </section>
+
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+<script src="script.js"></script>
+</body>
+
+<footer>
+  <div class="footer-section">
+  <div class="footer-container">
+  <div class="footer-left">
+  <h1>Subscribe for financial<br>health tips</h1>
+  <div class="subscribe-box">
+  <input type="email" class="input" name="email" placeholder="Email address" required>
+  <button type="submit" class="search-button"><img src="images/icon-search.png" width="20px" height="20px"></button>
+  </form>
+  </div>
+  <h3>FOLLOW US</h3>
+  <div class="socials">
+  <a href="https://www.youtube.com/"><img src="images/icon-youtube.png" width="50px"></a>
+  <a href="https://www.instagram.com/"><img src="images/icon-instagram.png" width="50px"></a>
+  </div>
+  </div>
+  <div class="footer-right">
+  <ul>Home</ul>
+  <ul>Everyday</ul>
+  <ul>Savings</ul>
+  <ul>Mortgages</ul>
+  <ul>Loans</ul>
+  <ul>Wellbeing</ul>
+  <ul>Contact</ul>
+  </div>
+  </div>
+  <div class="footer-bottom-container">
+  <div class="footer-bottom">
+  <p class="footer-text">© 2024 Circle Finance Ventures Ltd. All Rights Reserved</p>
+  <a href="" class="footer-link">Manage cookies</a>
+  <a href="" class="footer-link">Conditions</a> 
+  <a href="" class="footer-link">Privacy policy</a>
+  </div>
+  </div>
+  </div>
+</footer>
+</html>
