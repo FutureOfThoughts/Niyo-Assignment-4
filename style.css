@@ -110,7 +110,8 @@ body {
 .section1 p {
     font-weight: 600;
     line-height: 1.5rem;
-    padding-bottom: 10px;}
+    padding-bottom: 10px;
+    padding-right: 10px;}
 
 .section1-right {
     padding-top: 100px;}
@@ -437,7 +438,8 @@ img:hover {
     width: auto;
     cursor: pointer;
     padding-top: 30px;
-    padding-bottom: 30px;}
+    padding-bottom: 30px;
+    transition: 3s;}
     
 .menu ul li {
     display: none;}
